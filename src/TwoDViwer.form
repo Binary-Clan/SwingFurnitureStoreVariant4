@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="TwoDViwer">
+  <grid id="27dc6" binding="main2DPanel" layout-manager="BorderLayout" hgap="0" vgap="0">
+    <constraints>
+      <xy x="20" y="20" width="1119" height="702"/>
+    </constraints>
+    <properties>
+      <background color="-10185066"/>
+      <doubleBuffered value="true"/>
+      <enabled value="true"/>
+      <inheritsPopupMenu value="false"/>
+      <minimumSize width="800" height="600"/>
+      <preferredSize width="800" height="600"/>
+    </properties>
+    <border type="bevel-lowered"/>
+    <children>
+      <grid id="62ef5" layout-manager="GridLayoutManager" row-count="2" column-count="8" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="20" right="30"/>
+        <constraints border-constraint="South"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <vspacer id="6d2a">
+            <constraints>
+              <grid row="0" column="7" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <hspacer id="76d57">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <component id="70c19" class="javax.swing.JButton" binding="lineButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <autoscrolls value="true"/>
+              <background color="-15014521"/>
+              <focusCycleRoot value="true"/>
+              <focusPainted value="true"/>
+              <font name="Fira Code" size="12" style="0"/>
+              <foreground color="-16306139"/>
+              <hideActionText value="false"/>
+              <horizontalAlignment value="0"/>
+              <horizontalTextPosition value="11"/>
+              <inheritsPopupMenu value="false"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <text value="Line"/>
+            </properties>
+          </component>
+          <component id="32341" class="javax.swing.JButton" binding="rectangleButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <autoscrolls value="true"/>
+              <background color="-15014521"/>
+              <focusCycleRoot value="true"/>
+              <font name="Fira Code" size="12" style="0"/>
+              <foreground color="-16306139"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <text value="Rectangle"/>
+            </properties>
+          </component>
+          <component id="9790b" class="javax.swing.JButton" binding="circleButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <autoscrolls value="true"/>
+              <background color="-15014521"/>
+              <focusCycleRoot value="true"/>
+              <font name="Fira Code" size="12" style="0"/>
+              <foreground color="-16306139"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <text value="Circle"/>
+            </properties>
+          </component>
+          <component id="12291" class="javax.swing.JButton" binding="triangleButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <autoscrolls value="true"/>
+              <background color="-15014521"/>
+              <focusCycleRoot value="true"/>
+              <font name="Fira Code" size="12" style="0"/>
+              <foreground color="-16306139"/>
+              <margin top="0" left="0" bottom="0" right="0"/>
+              <text value="Triangle"/>
+            </properties>
+          </component>
+          <component id="93a9c" class="javax.swing.JSlider" binding="opacitySetter">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <foreground color="-6922978"/>
+            </properties>
+          </component>
+          <component id="563ec" class="javax.swing.JButton" binding="prewieButton">
+            <constraints>
+              <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-15014521"/>
+              <font name="Fira Code" size="12" style="0"/>
+              <foreground color="-16306139"/>
+              <text value="Preview"/>
+            </properties>
+          </component>
+          <component id="e502e" class="javax.swing.JButton" binding="saveButton">
+            <constraints>
+              <grid row="0" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <background color="-15014521"/>
+              <font name="Fira Code" size="12" style="0"/>
+              <foreground color="-16306139"/>
+              <text value="Save"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="3485d" layout-manager="GridLayoutManager" row-count="2" column-count="11" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints border-constraint="North"/>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="4d6cb" class="javax.swing.JButton" binding="colorButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="5" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <autoscrolls value="true"/>
+              <background color="-15014521"/>
+              <focusCycleRoot value="true"/>
+              <font name="Fira Code" size="12" style="0"/>
+              <foreground color="-16306139"/>
+              <text value="Color"/>
+            </properties>
+          </component>
+          <component id="67936" class="javax.swing.JButton" binding="scaleDownButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="6" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <actionCommand value="ScaleDown"/>
+              <autoscrolls value="true"/>
+              <background color="-15014521"/>
+              <focusCycleRoot value="true"/>
+              <font name="Fira Code" size="12" style="0"/>
+              <foreground color="-16306139"/>
+              <text value="Scale Down"/>
+            </properties>
+          </component>
+          <component id="32026" class="javax.swing.JButton" binding="scaleUpButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="7" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <actionCommand value="ScaleUp"/>
+              <autoscrolls value="true"/>
+              <background color="-15014521"/>
+              <focusCycleRoot value="true"/>
+              <font name="Fira Code" size="12" style="0"/>
+              <foreground color="-16306139"/>
+              <text value="Scale Up"/>
+            </properties>
+          </component>
+          <component id="a16a6" class="javax.swing.JButton" binding="paintImageButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="8" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <background color="-15014521"/>
+              <font name="Fira Code" size="12" style="0"/>
+              <foreground color="-16306139"/>
+              <text value="Paint Image"/>
+            </properties>
+          </component>
+          <hspacer id="ff211">
+            <constraints>
+              <grid row="1" column="10" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+          <vspacer id="5abbe">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </vspacer>
+          <component id="968c8" class="javax.swing.JButton" binding="insertImageButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <autoscrolls value="true"/>
+              <background color="-15014521"/>
+              <focusCycleRoot value="true"/>
+              <font name="Fira Code" size="12" style="0"/>
+              <foreground color="-16306139"/>
+              <text value="Insert Image"/>
+            </properties>
+          </component>
+          <component id="ef647" class="javax.swing.JButton" binding="clearButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="9" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="-1" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <autoscrolls value="true"/>
+              <background color="-15014521"/>
+              <focusCycleRoot value="true"/>
+              <font name="Fira Code" size="12" style="0"/>
+              <foreground color="-16306139"/>
+              <text value="Clear"/>
+            </properties>
+          </component>
+          <component id="6e3d1" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="20"/>
+              <text value="Designer"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <component id="ebcbc" class="javax.swing.JButton" binding="proceedButton" default-binding="true">
+        <constraints border-constraint="East"/>
+        <properties>
+          <background color="-16718503"/>
+          <font name="Fira Code" size="12" style="0"/>
+          <foreground color="-16306139"/>
+          <text value="Proceed"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+</form>
